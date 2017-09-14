@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <title>我的工单</title>
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" title="" rel="stylesheet"/>
+    <link title="" href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link title="blue" href="css/dermadefault.css" rel="stylesheet" type="text/css"/>
+    <link href="css/templatecss.css" rel="stylesheet" title="" type="text/css"/>
+    <script src="script/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="script/jquery.cookie.js" type="text/javascript"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+<body>
+<nav class="nav navbar-default navbar-mystyle navbar-fixed-top">
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand "><img src="img/logo_s.png" alt=""></a>
+    </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="li-border"><a class="mystyle-color" href="#">云系统</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav pull-right">
+            <li class="li-border">
+                <a href="#" class="mystyle-color">
+                    工单服务
+                </a>
+            </li>
+            <li class="li-border dropdown">
+                <a href="#" class="mystyle-color">
+                    备案
+                </a>
+            </li>
+            <li class="dropdown li-border"><a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">帮助与文档<span
+                    class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">帮助与文档</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">论坛</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">博客</a></li>
+                </ul>
+            </li>
+            <li class="dropdown li-border"><a href="#" class="dropdown-toggle mystyle-color" data-toggle="dropdown">6058855@qq.com<span
+                    class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="down-main">
+    <div class="left-main left-full">
+        <div class="sidebar-fold"><span class="glyphicon glyphicon-menu-hamburger"></span></div>
+        <div class="subNavBox">
+            <div class="sBox">
+                <div class="subNav sublist-down"><span class="title-icon glyphicon glyphicon-chevron-down"></span><span
+                        class="sublist-title">云建站</span></div>
+                <ul class="navContent">
+                    <li>
+                        <div class="showtitle" style="width:100px;"><img src="img/leftimg.png"/>云建站</div>
+                        <a href="#"><span class="sublist-icon glyphicon glyphicon-cloud"></span><span class="sub-title">云建站</span></a>
+                    </li>
+                    <li>
+                        <div class="showtitle" style="width:100px;"><img src="img/leftimg.png"/>云域名</div>
+                        <a href="y-domain-name-list.html"><span class="sublist-icon glyphicon glyphicon-globe"></span><span class="sub-title">云域名</span></a>
+                    </li>
+                    <li>
+                        <div class="showtitle" style="width:100px;"><img src="img/leftimg.png"/>云主机</div>
+                        <a href="cloud_server.html"><span class="sublist-icon glyphicon glyphicon-hdd"></span><span class="sub-title">云主机</span></a>
+                    </li>
+                    <li>
+                        <div class="showtitle" style="width:100px;"><img src="img/leftimg.png"/>云邮箱</div>
+                        <a href="cloud_email.html"><span class="sublist-icon glyphicon glyphicon-envelope"></span><span
+                                class="sub-title">云邮箱</span></a></li>
+                </ul>
+            </div>
+            <div class="sBox" style="background: #37424F;">
+                <div class="subNav"><span class="sublist-icon glyphicon glyphicon-fullscreen"></span><span
+                        class="sublist-title">云推广</span></div>
+            </div>
+            <div class="sBox" style="background: #37424F;">
+                <div class="subNav"><span class="sublist-icon glyphicon glyphicon-shopping-cart"></span><span
+                        class="sublist-title">云广告</span></div>
+            </div>
+            <div class="sBox" style="background: #37424F;">
+                <div class="subNav"><span class="sublist-icon glyphicon glyphicon-phone"></span><span
+                        class="sublist-title">云应用</span></div>
+            </div>
+            <div class="sBox">
+                <div class="subNav sublist-down"><span class="title-icon glyphicon glyphicon-chevron-down"></span><span
+                        class="sublist-title">用户中心</span>
+                </div>
+                <ul class="navContent" style="display:block">
+                    <li>
+                        <div class="showtitle" style="width:100px;"><img src="img/leftimg.png"/>账号管理</div>
+                        <a href="account-manage-basic.html"><span class="sublist-icon glyphicon glyphicon-user"></span><span class="sub-title">账号管理</span></a>
+                    </li>
+                    <li>
+                        <div class="showtitle" style="width:100px;"><img src="img/leftimg.png"/>费用中心</div>
+                        <a href="expense-center.html"><span class="sublist-icon glyphicon glyphicon-usd"></span><span class="sub-title">费用中心</span></a>
+                    </li>
+                    <li class="active">
+                        <div class="showtitle" style="width:100px;"><img src="img/leftimg.png"/>工单管理</div>
+                        <a href="orders-manage.html"><span class="sublist-icon glyphicon glyphicon-bullhorn"></span><span
+                                class="sub-title">工单管理</span></a></li>
+                    <li>
+                        <div class="showtitle" style="width:100px;"><img src="img/leftimg.png"/>备案中心</div>
+                        <a href="#"><span class="sublist-icon glyphicon glyphicon-credit-card"></span><span
+                                class="sub-title">备案中心</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-product my-index right-full hasProduct-nav">
+        <div id="product-nav">
+            <div class="title">
+                工单管理
+            </div>
+            <div class="product-nav-list">
+                <ul class="list-unstyled">
+                    <li class="active">
+                        <a href="orders-manage.html">
+                            <div class="nav-icon"></div>
+                            <div class="nav-title">
+                                我的工单
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="orders-submit.html">
+                            <div class="nav-icon"></div>
+                            <div class="nav-title">
+                                工单提交
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="viewFramework-product-navbar-collapse">
+            <div class="product-navbar-collapse-inner">
+                <div class="product-navbar-collapse-bg"></div>
+                <div class="product-navbar-collapse">
+                  <span class="icon-collapse-left">
+                  </span>
+                    <span class="icon-collapse-right"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="orders-manage">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="ticket-list" >
+                            <!--main table-->
+                                <div class="console-title console-title-border clearfix">
+                                    <!-- 我的工单 -->
+                                    <h5 >我的工单</h5>
+                                </div>
+                                <div class="margin-top-3"></div>
+                                <div>
+
+                                </div>
+                                <form class="form-inline" role="form">
+                                    <div class="simple-form-field">
+                                        <div class="form-group">
+                                            <label for="text0" class="control-label">
+                                                <span class="text-danger"></span>
+                                                <span class="ng-binding">工单编号:</span>
+                                            </label>
+                                            <div class="form-control-wrap">
+                                                <input type="text" class="form-control" id="text0" placeholder="" name="workorderId">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="simple-form-field">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                <span class="text-danger"></span>
+                                                <span>时间:</span>
+                                            </label>
+                                            <div class="form-control-wrap clearfix">
+                                                <div class="pull-left" style="width: 45%;">
+                                                    <input type="text" class="form-control" id="date1_start" placeholder="" name="begin">
+                                                </div>
+                                                <div style="width:10%;text-align:center;top:7px;position:relative;left:4px" class="pull-left">至
+                                                </div>
+                                                <div class="pull-left" style="width:45%">
+                                                    <input type="text" class="form-control" style="display:inline" id="date1_end" placeholder="" name="end">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="simple-form-field">
+                                        <div class="form-group">
+                                            <label for="text2" class="control-label">
+                                                <span class="text-danger"></span>
+                                                <span>关键字:</span>
+                                            </label>
+                                            <div class="form-control-wrap">
+                                                <input type="text" class="form-control" id="text2" placeholder="" name="keyword">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="simple-form-field">
+                                        <div class="form-group simple-form-submit">
+                                            <label class="control-label">
+                                                <span></span>
+                                            </label>
+                                            <div class="form-control-wrap text-right">
+                                                <button class="btn btn-default" type="submit">
+                                                    查询
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div ng-transclude=""></div>
+                                </form>
+                                <script type="text/javascript" src="js/laydate.dev.js"></script>
+                                <script>
+                                    laydate({
+                                        elem: '#date1_start'
+                                    });
+                                    laydate({
+                                        elem: '#date1_end'
+                                    });
+                                </script>
+                                <div>
+                                        <div class="clearfix">
+                                            <div class="searchSection pull-left"></div>
+                                            <div class="tagSearchSection pull-left"></div>
+                                        </div>
+                                        <div class="gridSection">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                <tr>
+                                                    <th>工单编号</th>
+                                                    <th>问题内容</th>
+                                                    <th>工单类型</th>
+                                                    <th>问题分类</th>
+                                                    <th>提交时间</th>
+                                                    <th>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem">
+                                                                <span>
+                                                                    <span>状态</span>
+                                                                </span>
+                                                                <span>(全部)</span>
+                                                                <span class="caret"></span>
+                                                            </a>
+                                                            <ul class="dropdown-menu aliyun-console-table-search-list">
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="glyphicon glyphicon-ok"></span>
+                                                                        <span>全部</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span>待您反馈</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span>待您确认</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span>工单已分派</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span>正在为您处理</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span>待您评价</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span>工单已关闭</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </th>
+                                                    <th class="text-right">操作</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td class="text-gray">
+                                                        <span>AW75GCJ</span>
+                                                    </td>
+                                                    <td class="text-gray">
+                                                        <a href="#" class="btn btn-link btn-xs" target="_blank">
+                                                            <span>转入1000元预存款，请帮忙转入会员账户下，谢谢。</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="text-gray">
+                                                        <span>资讯</span>
+                                                    </td>
+                                                    <td class="text-right">
+                                                        <span>财务类</span>
+                                                    </td>
+                                                    <td class="text-right">
+                                                        <span>2016-11-01 08:32</span>
+                                                    </td>
+                                                    <td class="text-right">
+                                                        <span>工单已关闭</span>
+                                                    </td>
+                                                    <td class="operation-colunm-width  text-right">
+                                                        <a href="work-order-details.html" class="btn btn-link btn-xs" target="_blank">
+                                                            <span> 查看 </span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                <tr>
+                                                    <td colspan=" 7">
+                                                        <div class="pull-left"></div>
+                                                        <div class="clearfix">
+                                                            <div class="pull-right">
+                                                                <div class="pagination-info">
+                                                                    <span>共有1条</span>，
+                                                                    <span>每页显示：20条</span>
+                                                                </div>
+                                                                <ul class="pagination">
+                                                                    <!-- ngRepeat: page in pages -->
+                                                                    <li>
+                                                                        <a href="#">«</a>
+                                                                    </li>
+                                                                    <!-- end ngRepeat: page in pages -->
+                                                                    <li>
+                                                                        <a href="#">‹</a>
+                                                                    </li>
+                                                                    <!-- end ngRepeat: page in pages -->
+                                                                    <li class="active">
+                                                                        <a href="#">1</a>
+                                                                    </li>
+                                                                    <!-- end ngRepeat: page in pages -->
+                                                                    <li>
+                                                                        <a href="#">›</a>
+                                                                    </li>
+                                                                    <!-- end ngRepeat: page in pages -->
+                                                                    <li>
+                                                                        <a href="#">»</a>
+                                                                    </li>
+                                                                    <!-- end ngRepeat: page in pages -->
+                                                                </ul>
+                                                                            <span style="padding-left: 15px;padding-right: 15px">
+                                                                                <input type="text" class="form-control" style="width: 40px;vertical-align: middle; display: inline-block; padding-right: 5px">
+                                                                                <button class="btn btn-default" style="padding: 8px 8px;margin-left: 6px" disabled="disabled">GO</button>
+                                                                            </span>
+                                                            </div>
+                                                        </div>
+                                                        <!-- end ngIf: paginationSupport && showNoneDataInfoTip != true && !loadingState -->
+                                                    </td>
+                                                </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                        <div class="simple-grid-none-data-wrap" style="display: none;">
+                                            <!-- ngIf: showNoneDataInfoTip && !loadingState -->
+                                            <div class="text-center">
+                                                <div class="row-padding row-margin text-center">
+                                                    <div class="text-size-18 tip-text inline-block">
+                                                        <span class="text-size-24 blue icon-info-1" style="vertical-align: middle"></span>
+                                                        没有查询到符合条件的记录
+                                                    </div>
+                                                </div>
+                                            </div><!-- end ngIf: showNoneDataInfoTip && !loadingState --></div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        /*点击隐藏左侧产品导航*/
+        $(".product-navbar-collapse-inner").click(function () {
+            $(".right-product").toggleClass("hasProduct-nav");
+        });
+
+        /*左侧导航栏显示隐藏功能*/
+        $(".subNav").click(function () {
+            /*显示*/
+            if ($(this).find("span:first-child").attr('class') == "title-icon glyphicon glyphicon-chevron-down") {
+                $(this).find("span:first-child").removeClass("glyphicon-chevron-down");
+                $(this).find("span:first-child").addClass("glyphicon-chevron-up");
+                $(this).removeClass("sublist-down");
+                $(this).addClass("sublist-up");
+            }
+            /*隐藏*/
+            else {
+                $(this).find("span:first-child").removeClass("glyphicon-chevron-up");
+                $(this).find("span:first-child").addClass("glyphicon-chevron-down");
+                $(this).removeClass("sublist-up");
+                $(this).addClass("sublist-down");
+            }
+            // 修改数字控制速度， slideUp(500)控制卷起速度
+            $(this).next(".navContent").slideToggle(300).siblings(".navContent").slideUp(300);
+        })
+        /*左侧导航栏缩进功能*/
+        $(".left-main .sidebar-fold").click(function () {
+
+            if ($(this).parent().attr('class') == "left-main left-full") {
+                $(".sBox ul li a").css("padding-left",'0');
+                $(this).parent().removeClass("left-full");
+                $(this).parent().addClass("left-off");
+
+                $(this).parent().parent().find(".right-product").removeClass("right-full");
+                $(this).parent().parent().find(".right-product").addClass("right-off");
+
+            }
+            else {
+                $(".sBox ul li a").css("padding-left",'10px');
+                $(this).parent().removeClass("left-off");
+                $(this).parent().addClass("left-full");
+
+                $(this).parent().parent().find(".right-product").removeClass("right-off");
+                $(this).parent().parent().find(".right-product").addClass("right-full");
+
+            }
+        })
+
+        /*左侧鼠标移入提示功能*/
+        $(".sBox ul li").mouseenter(function () {
+            if ($(this).find("span:last-child").css("display") == "none") {
+                $(this).find("div").show();
+            }
+        }).mouseleave(function () {
+            $(this).find("div").hide();
+        })
+    })
+</script>
+</body>
+</html>
